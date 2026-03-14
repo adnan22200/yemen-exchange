@@ -1,0 +1,19 @@
+{
+  "name": "asaar-al-sarf-yemen",
+  "version": "1.0.0",
+  "description": "موقع اسعار الصرف في اليمن مع لوحة تحكم منفصلة",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.10",
+    "express": "^4.22.1",
+    "express-session": "^1.19.0",
+    "multer": "^2.0.2",
+    "sqlite3": "^5.1.7"
+  }
+}

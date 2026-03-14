@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أسعار الصرف في اليمن</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>💰 أسعار الصرف في اليمن</h1>
+  </header>
+
+  <main>
+    <!-- لوحة التحكم -->
+    <section id="control-panel">
+      <h2>➕ إضافة سعر جديد</h2>
+      <form id="rate-form">
+        <input type="text" id="city" placeholder="المحافظة" required>
+        <input type="number" id="buy" placeholder="سعر الشراء" required>
+        <input type="number" id="sell" placeholder="سعر البيع" required>
+        <input type="date" id="date" required>
+        <button type="submit">إضافة</button>
+      </form>
+    </section>
+
+    <!-- جدول الأسعار -->
+    <table id="rates-table">
+      <thead>
+        <tr>
+          <th>المحافظة</th>
+          <th>سعر الشراء</th>
+          <th>سعر البيع</th>
+          <th>التاريخ</th>
+          <th>إدارة</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- الصفوف ستتم إضافتها من JavaScript -->
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>© 2025 - أسعار الصرف في اليمن</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

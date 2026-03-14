@@ -1,0 +1,11 @@
+runtime: nodejs18
+env: standard
+entrypoint: npm start
+
+handlers:
+  - url: /css
+    static_dir: public/css
+  - url: /img
+    static_dir: public/img
+  - url: /.*
+    script: auto
